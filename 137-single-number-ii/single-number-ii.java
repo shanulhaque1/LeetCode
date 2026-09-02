@@ -1,10 +1,10 @@
 class Solution {
     public int singleNumber(int[] nums) {
         
-        for(int i=0; i<nums.length; i++){
+        for(int i=0; i<nums.length;  i++){
             int count = 1;
            
-            for(int j=0; j<nums.length; j++ ){
+            for(int  j=0;  j< nums.length; j++ ){
                 if (i==j)
                 continue;
 
@@ -15,6 +15,7 @@ class Solution {
             continue;
 
             else
+
             return nums[i];
 
         }
