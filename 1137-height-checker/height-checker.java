@@ -1,14 +1,10 @@
 class Solution {
     public static int heightChecker(int[] heights) {
-        int [] exp = new int[heights.length];
-        
+        int [] exp = heights.clone();
+        Arrays.sort(exp);
         
         int count = 0;
-
-        for(int i=0; i<heights.length; i++){
-            exp[i] = heights[i];
-        }
-        Arrays.sort(exp);
+        
 
         for(int j=0; j<heights.length; j++){
         if(heights[j]!=exp[j])
