@@ -6,7 +6,7 @@ class Solution {
             return 0;
             
 
-            else if(nums[i]<0)
+             if(nums[i]<0)
             sign = -sign;
         }
 
