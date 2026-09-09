@@ -1,11 +1,11 @@
 int countCommas(int n) {
+    if(n<1000) return 0;
 
     int count =0;
     if(n>=1000 && n<=100000){
         for(int i=1000; i<=n;i++){
             count  ++; 
         }
-    return count;
     }
-    return 0;
+    return count;;
 }
