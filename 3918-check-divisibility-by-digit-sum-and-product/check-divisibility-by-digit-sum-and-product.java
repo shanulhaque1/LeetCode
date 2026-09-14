@@ -1,5 +1,6 @@
 class Solution {
     public boolean checkDivisibility(int n) {
+        if ( n<= 0 ) return false;
         int org = n;
         int sum =0;
         int pro = 1;
