@@ -5,8 +5,8 @@ class Solution {
         for(int i=0 ; i<order.length; i++){
             for(int j=0; j<friends.length; j++){
                 if(order[i]==friends[j]){
-                    result[it]=order[i];
-                    it++;
+                    result[it++]=order[i];
+                    break;
                     
                     
                 }
